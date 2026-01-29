@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.controls {
+  width: 380px;
+  padding: 15px;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+input[type="number"] {
+  width: 140px;
+}
+
+svg {
+  flex: 1;
+  background: #fafafa;
+}
+
+#status {
+  margin-top: 10px;
+  color: red;
+  font-weight: bold;
+}
